@@ -15,12 +15,11 @@ public class Infosys {
 		String string = IntStream.range(0, str.length()).mapToObj(i -> String.valueOf(str.charAt(str.length() - i - 1)))
 				.collect(Collectors.joining());
 		System.out.println(string);
-	
-		
-		int arr[] = {1,2,3,4,5,6};
-		IntStream arrr = IntStream.rangeClosed(1,arr.length).map(i->arr[arr.length-i]);
+
+		int arr[] = { 1, 2, 3, 4, 5, 6 };
+		IntStream arrr = IntStream.rangeClosed(1, arr.length).map(i -> arr[arr.length - i]);
 		System.out.println(Arrays.toString(arrr.toArray()));
-		
+
 	}
 
 //		
